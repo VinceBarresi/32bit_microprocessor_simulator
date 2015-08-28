@@ -4,7 +4,7 @@ This program computes the following:
 
 ````
 for (i = 0; i < 3; i++)
-  A[i + 5] = A[i + 5];
+  A[i + 5] = A[i] + 5;
 ````
 
 Below are the corresponding MIPS instructions:
